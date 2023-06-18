@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AECB1FF82A3E9ADB0008ABF4 /* HobbitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB1FF72A3E9ADB0008ABF4 /* HobbitApp.swift */; };
+		AECB1FFA2A3E9ADB0008ABF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB1FF92A3E9ADB0008ABF4 /* ContentView.swift */; };
+		AECB1FFC2A3E9AE10008ABF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECB1FFB2A3E9AE10008ABF4 /* Assets.xcassets */; };
+		AECB1FFF2A3E9AE10008ABF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECB1FFE2A3E9AE10008ABF4 /* Preview Assets.xcassets */; };
+		AECB20092A3E9AE20008ABF4 /* HobbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB20082A3E9AE20008ABF4 /* HobbitTests.swift */; };
+		AECB20132A3E9AE20008ABF4 /* HobbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB20122A3E9AE20008ABF4 /* HobbitUITests.swift */; };
+		AECB20152A3E9AE20008ABF4 /* HobbitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB20142A3E9AE20008ABF4 /* HobbitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AECB20052A3E9AE20008ABF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECB1FEC2A3E9ADB0008ABF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECB1FF32A3E9ADB0008ABF4;
+			remoteInfo = Hobbit;
+		};
+		AECB200F2A3E9AE20008ABF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECB1FEC2A3E9ADB0008ABF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECB1FF32A3E9ADB0008ABF4;
+			remoteInfo = Hobbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AECB1FF42A3E9ADB0008ABF4 /* Hobbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hobbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECB1FF72A3E9ADB0008ABF4 /* HobbitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitApp.swift; sourceTree = "<group>"; };
+		AECB1FF92A3E9ADB0008ABF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AECB1FFB2A3E9AE10008ABF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AECB1FFE2A3E9AE10008ABF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AECB20042A3E9AE20008ABF4 /* HobbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECB20082A3E9AE20008ABF4 /* HobbitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitTests.swift; sourceTree = "<group>"; };
+		AECB200E2A3E9AE20008ABF4 /* HobbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECB20122A3E9AE20008ABF4 /* HobbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitUITests.swift; sourceTree = "<group>"; };
+		AECB20142A3E9AE20008ABF4 /* HobbitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECB1FF12A3E9ADB0008ABF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECB20012A3E9AE20008ABF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECB200B2A3E9AE20008ABF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AECB1FEB2A3E9ADB0008ABF4 = {
+			isa = PBXGroup;
+			children = (
+				AECB1FF62A3E9ADB0008ABF4 /* Hobbit */,
+				AECB20072A3E9AE20008ABF4 /* HobbitTests */,
+				AECB20112A3E9AE20008ABF4 /* HobbitUITests */,
+				AECB1FF52A3E9ADB0008ABF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AECB1FF52A3E9ADB0008ABF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECB1FF42A3E9ADB0008ABF4 /* Hobbit.app */,
+				AECB20042A3E9AE20008ABF4 /* HobbitTests.xctest */,
+				AECB200E2A3E9AE20008ABF4 /* HobbitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECB1FF62A3E9ADB0008ABF4 /* Hobbit */ = {
+			isa = PBXGroup;
+			children = (
+				AECB1FF72A3E9ADB0008ABF4 /* HobbitApp.swift */,
+				AECB1FF92A3E9ADB0008ABF4 /* ContentView.swift */,
+				AECB1FFB2A3E9AE10008ABF4 /* Assets.xcassets */,
+				AECB1FFD2A3E9AE10008ABF4 /* Preview Content */,
+			);
+			path = Hobbit;
+			sourceTree = "<group>";
+		};
+		AECB1FFD2A3E9AE10008ABF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AECB1FFE2A3E9AE10008ABF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AECB20072A3E9AE20008ABF4 /* HobbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AECB20082A3E9AE20008ABF4 /* HobbitTests.swift */,
+			);
+			path = HobbitTests;
+			sourceTree = "<group>";
+		};
+		AECB20112A3E9AE20008ABF4 /* HobbitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AECB20122A3E9AE20008ABF4 /* HobbitUITests.swift */,
+				AECB20142A3E9AE20008ABF4 /* HobbitUITestsLaunchTests.swift */,
+			);
+			path = HobbitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECB1FF32A3E9ADB0008ABF4 /* Hobbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECB20182A3E9AE20008ABF4 /* Build configuration list for PBXNativeTarget "Hobbit" */;
+			buildPhases = (
+				AECB1FF02A3E9ADB0008ABF4 /* Sources */,
+				AECB1FF12A3E9ADB0008ABF4 /* Frameworks */,
+				AECB1FF22A3E9ADB0008ABF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hobbit;
+			productName = Hobbit;
+			productReference = AECB1FF42A3E9ADB0008ABF4 /* Hobbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AECB20032A3E9AE20008ABF4 /* HobbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECB201B2A3E9AE20008ABF4 /* Build configuration list for PBXNativeTarget "HobbitTests" */;
+			buildPhases = (
+				AECB20002A3E9AE20008ABF4 /* Sources */,
+				AECB20012A3E9AE20008ABF4 /* Frameworks */,
+				AECB20022A3E9AE20008ABF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECB20062A3E9AE20008ABF4 /* PBXTargetDependency */,
+			);
+			name = HobbitTests;
+			productName = HobbitTests;
+			productReference = AECB20042A3E9AE20008ABF4 /* HobbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AECB200D2A3E9AE20008ABF4 /* HobbitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECB201E2A3E9AE20008ABF4 /* Build configuration list for PBXNativeTarget "HobbitUITests" */;
+			buildPhases = (
+				AECB200A2A3E9AE20008ABF4 /* Sources */,
+				AECB200B2A3E9AE20008ABF4 /* Frameworks */,
+				AECB200C2A3E9AE20008ABF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECB20102A3E9AE20008ABF4 /* PBXTargetDependency */,
+			);
+			name = HobbitUITests;
+			productName = HobbitUITests;
+			productReference = AECB200E2A3E9AE20008ABF4 /* HobbitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECB1FEC2A3E9ADB0008ABF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AECB1FF32A3E9ADB0008ABF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AECB20032A3E9AE20008ABF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AECB1FF32A3E9ADB0008ABF4;
+					};
+					AECB200D2A3E9AE20008ABF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AECB1FF32A3E9ADB0008ABF4;
+					};
+				};
+			};
+			buildConfigurationList = AECB1FEF2A3E9ADB0008ABF4 /* Build configuration list for PBXProject "Hobbit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AECB1FEB2A3E9ADB0008ABF4;
+			productRefGroup = AECB1FF52A3E9ADB0008ABF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECB1FF32A3E9ADB0008ABF4 /* Hobbit */,
+				AECB20032A3E9AE20008ABF4 /* HobbitTests */,
+				AECB200D2A3E9AE20008ABF4 /* HobbitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECB1FF22A3E9ADB0008ABF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECB1FFF2A3E9AE10008ABF4 /* Preview Assets.xcassets in Resources */,
+				AECB1FFC2A3E9AE10008ABF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECB20022A3E9AE20008ABF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECB200C2A3E9AE20008ABF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECB1FF02A3E9ADB0008ABF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECB1FFA2A3E9ADB0008ABF4 /* ContentView.swift in Sources */,
+				AECB1FF82A3E9ADB0008ABF4 /* HobbitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECB20002A3E9AE20008ABF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECB20092A3E9AE20008ABF4 /* HobbitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECB200A2A3E9AE20008ABF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECB20152A3E9AE20008ABF4 /* HobbitUITestsLaunchTests.swift in Sources */,
+				AECB20132A3E9AE20008ABF4 /* HobbitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AECB20062A3E9AE20008ABF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECB1FF32A3E9ADB0008ABF4 /* Hobbit */;
+			targetProxy = AECB20052A3E9AE20008ABF4 /* PBXContainerItemProxy */;
+		};
+		AECB20102A3E9AE20008ABF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECB1FF32A3E9ADB0008ABF4 /* Hobbit */;
+			targetProxy = AECB200F2A3E9AE20008ABF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AECB20162A3E9AE20008ABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AECB20172A3E9AE20008ABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECB20192A3E9AE20008ABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hobbit/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C4J6ZT9DB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rita.Qifan.Yang.Hobbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECB201A2A3E9AE20008ABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hobbit/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C4J6ZT9DB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rita.Qifan.Yang.Hobbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AECB201C2A3E9AE20008ABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C4J6ZT9DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rita.Qifan.Yang.HobbitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hobbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hobbit";
+			};
+			name = Debug;
+		};
+		AECB201D2A3E9AE20008ABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C4J6ZT9DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rita.Qifan.Yang.HobbitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hobbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hobbit";
+			};
+			name = Release;
+		};
+		AECB201F2A3E9AE20008ABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C4J6ZT9DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rita.Qifan.Yang.HobbitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hobbit;
+			};
+			name = Debug;
+		};
+		AECB20202A3E9AE20008ABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C4J6ZT9DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rita.Qifan.Yang.HobbitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hobbit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECB1FEF2A3E9ADB0008ABF4 /* Build configuration list for PBXProject "Hobbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECB20162A3E9AE20008ABF4 /* Debug */,
+				AECB20172A3E9AE20008ABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECB20182A3E9AE20008ABF4 /* Build configuration list for PBXNativeTarget "Hobbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECB20192A3E9AE20008ABF4 /* Debug */,
+				AECB201A2A3E9AE20008ABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECB201B2A3E9AE20008ABF4 /* Build configuration list for PBXNativeTarget "HobbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECB201C2A3E9AE20008ABF4 /* Debug */,
+				AECB201D2A3E9AE20008ABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECB201E2A3E9AE20008ABF4 /* Build configuration list for PBXNativeTarget "HobbitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECB201F2A3E9AE20008ABF4 /* Debug */,
+				AECB20202A3E9AE20008ABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECB1FEC2A3E9ADB0008ABF4 /* Project object */;
+}
