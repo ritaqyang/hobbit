@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+
+
 @main
 struct HobbitApp: App {
+    init(){
+        Backend.initialize()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+
 }
